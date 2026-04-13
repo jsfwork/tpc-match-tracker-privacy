@@ -1,29 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Privacy Policy – TPC Match Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 800px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 16px;
       line-height: 1.6;
       color: #333;
     }
+
     h1, h2 {
       color: #2C256B;
     }
+
     .lang-switch {
-      margin-bottom: 24px;
       text-align: center;
+      margin-bottom: 32px;
     }
+
     .lang-switch button {
       margin: 4px;
-      padding: 6px 10px;
+      padding: 6px 12px;
       border: 1px solid #2C256B;
       background: white;
       color: #2C256B;
@@ -31,15 +34,24 @@
       border-radius: 4px;
       font-weight: bold;
     }
+
     .lang-switch button.active {
       background: #2C256B;
       color: white;
     }
+
     .lang {
       display: none;
     }
+
     .lang.active {
       display: block;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
@@ -47,10 +59,142 @@
 <body>
 
 <div class="lang-switch">
-  <button onclick="setLang('en')" id="btn-en">English</button>
-  <button onclick="setLang('pt')" id="btn-pt">Português</button>
-  <button onclick="setLang('es')" id="btn-es">Español</button>
-  <button onclick="setLang('fr')" id="btn-fr">Français</button>
-  <button onclick="setLang('it')" id="btn-it">Italiano</button>
-  <button onclick="setLang('de')" id="btn-de">Deutsch</button>
+  <strong>Language:</strong>
+  <button id="btn-en" onclick="setLang('en')">English</button>
+  <button id="btn-pt" onclick="setLang('pt')">Português</button>
+  <button id="btn-es" onclick="setLang('es')">Español</button>
+  <button id="btn-fr" onclick="setLang('fr')">Français</button>
+  <button id="btn-it" onclick="setLang('it')">Italiano</button>
+  <button id="btn-de" onclick="setLang('de')">Deutsch</button>
 </div>
+
+<!-- ================= ENGLISH ================= -->
+<div class="lang active" id="lang-en">
+  <h1>Privacy Policy – TPC Match Tracker</h1>
+  <p><strong>Last updated:</strong> 13 April 2026</p>
+
+  <p>TPC Match Tracker (“the App”) is developed and maintained by <strong>Team Paixão e Competência</strong>.</p>
+
+  <h2>Data Collection</h2>
+  <p>The App does not collect, transmit, store, or share any personal or sensitive data.</p>
+  <p>All data entered by the user is stored locally on the device only.</p>
+
+  <h2>Internet Access</h2>
+  <p>The App does not require an internet connection.</p>
+
+  <h2>Third‑Party Services</h2>
+  <p>The App does not use third‑party analytics, advertising, or tracking services.</p>
+
+  <h2>Data Deletion</h2>
+  <p>All data can be permanently deleted by uninstalling the App.</p>
+
+  <h2>Contact</h2>
+  <p>Email: joaosantosferreira.work@gmail.com</p>
+
+  <footer>
+    This Privacy Policy applies to the Android version distributed via Google Play.
+  </footer>
+</div>
+
+<!-- ================= PORTUGUÊS ================= -->
+<div class="lang" id="lang-pt">
+  <h1>Política de Privacidade – TPC Match Tracker</h1>
+  <p><strong>Última atualização:</strong> 13 de abril de 2026</p>
+
+  <p>O TPC Match Tracker (“a Aplicação”) é desenvolvido pela <strong>Team Paixão e Competência</strong>.</p>
+
+  <h2>Recolha de Dados</h2>
+  <p>A aplicação não recolhe nem partilha dados pessoais.</p>
+  <p>Toda a informação é armazenada exclusivamente no dispositivo do utilizador.</p>
+
+  <h2>Acesso à Internet</h2>
+  <p>A aplicação não necessita de ligação à internet.</p>
+
+  <h2>Serviços de Terceiros</h2>
+  <p>Não são utilizados serviços de terceiros.</p>
+
+  <h2>Eliminação de Dados</h2>
+  <p>Todos os dados são removidos ao desinstalar a aplicação.</p>
+
+  <h2>Contacto</h2>
+  <p>Email: joaosantosferreira.work@gmail.com</p>
+</div>
+
+<!-- ================= ESPAÑOL ================= -->
+<div class="lang" id="lang-es">
+  <h1>Política de Privacidad – TPC Match Tracker</h1>
+
+  <p>La aplicación es desarrollada por <strong>Team Paixão e Competência</strong>.</p>
+
+  <h2>Recopilación de Datos</h2>
+  <p>La app no recopila datos personales.</p>
+
+  <h2>Internet</h2>
+  <p>No se requiere conexión a internet.</p>
+
+  <h2>Contacto</h2>
+  <p>Email: joaosantosferreira.work@gmail.com</p>
+</div>
+
+<!-- ================= FRANÇAIS ================= -->
+<div class="lang" id="lang-fr">
+  <h1>Politique de Confidentialité – TPC Match Tracker</h1>
+
+  <p>L’application est développée par <strong>Team Paixão e Competência</strong>.</p>
+
+  <h2>Collecte de Données</h2>
+  <p>Aucune donnée personnelle n’est collectée.</p>
+
+  <h2>Internet</h2>
+  <p>Aucune connexion internet requise.</p>
+
+  <h2>Contact</h2>
+  <p>Email: joaosantosferreira.work@gmail.com</p>
+</div>
+
+<!-- ================= ITALIANO ================= -->
+<div class="lang" id="lang-it">
+  <h1>Informativa sulla Privacy – TPC Match Tracker</h1>
+
+  <p>L’app è sviluppata da <strong>Team Paixão e Competência</strong>.</p>
+
+  <h2>Dati Personali</h2>
+  <p>L’app non raccoglie dati personali.</p>
+
+  <h2>Internet</h2>
+  <p>Nessuna connessione richiesta.</p>
+
+  <h2>Contatto</h2>
+  <p>Email: joaosantosferreira.work@gmail.com</p>
+</div>
+
+<!-- ================= DEUTSCH ================= -->
+<div class="lang" id="lang-de">
+  <h1>Datenschutzerklärung – TPC Match Tracker</h1>
+
+  <p>Die App wird entwickelt von <strong>Team Paixão e Competência</strong>.</p>
+
+  <h2>Datenschutz</h2>
+  <p>Es werden keine personenbezogenen Daten erhoben.</p>
+
+  <h2>Internet</h2>
+  <p>Keine Internetverbindung erforderlich.</p>
+
+  <h2>Kontakt</h2>
+  <p>Email: joaosantosferreira.work@gmail.com</p>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.remove('active'));
+
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.getElementById('btn-' + lang).classList.add('active');
+  }
+
+  setLang('en');
+</script>
+
+</body>
+</html>
