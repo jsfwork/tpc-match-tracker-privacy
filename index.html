@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Privacy Policy – TPC Match Tracker</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,68 +17,40 @@
     h1, h2 {
       color: #2C256B;
     }
-    footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #666;
+    .lang-switch {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .lang-switch button {
+      margin: 4px;
+      padding: 6px 10px;
+      border: 1px solid #2C256B;
+      background: white;
+      color: #2C256B;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .lang-switch button.active {
+      background: #2C256B;
+      color: white;
+    }
+    .lang {
+      display: none;
+    }
+    .lang.active {
+      display: block;
     }
   </style>
 </head>
+
 <body>
 
-<h1>Privacy Policy – TPC Match Tracker</h1>
-<p><strong>Last updated:</strong> 13 April 2026</p>
-
-<p>
-TPC Match Tracker (“the App”) is developed and maintained by
-<strong>Team Paixão e Competência</strong>.
-</p>
-
-<h2>Data Collection</h2>
-<p>
-TPC Match Tracker does <strong>not collect, transmit, store, or share any personal or sensitive user data</strong>.
-</p>
-<p>
-All information entered by the user (including team names, player details,
-match statistics, and notes) is stored <strong>locally on the user’s device only</strong>.
-This data never leaves the device and is not accessible to the developer or
-any external parties.
-</p>
-
-<h2>Internet Access</h2>
-<p>
-The App does <strong>not require an internet connection</strong> to function.
-No data is transmitted to external servers.
-</p>
-
-<h2>Third‑Party Services</h2>
-<p>
-The App does <strong>not use third‑party services</strong>, including analytics,
-advertising, tracking, or crash reporting tools.
-</p>
-
-<h2>Data Deletion</h2>
-<p>
-All locally stored data can be permanently removed by
-<strong>uninstalling the App</strong> from the device.
-</p>
-
-<h2>Contact</h2>
-<p>
-If you have any questions about this Privacy Policy, please contact:
-</p>
-<p>
-📧 <a href="mailto:joaosantosferreira.work@gmail.com">
-joaosantosferreira.work@gmail.com
-</a>
-</p>
-
-<footer>
-  <p>
-    This Privacy Policy applies to the Android version of TPC Match Tracker
-    distributed via Google Play.
-  </p>
-</footer>
-
-</body>
-</html>
+<div class="lang-switch">
+  <button onclick="setLang('en')" id="btn-en">English</button>
+  <button onclick="setLang('pt')" id="btn-pt">Português</button>
+  <button onclick="setLang('es')" id="btn-es">Español</button>
+  <button onclick="setLang('fr')" id="btn-fr">Français</button>
+  <button onclick="setLang('it')" id="btn-it">Italiano</button>
+  <button onclick="setLang('de')" id="btn-de">Deutsch</button>
+</div>
